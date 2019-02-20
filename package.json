@@ -2,7 +2,7 @@
   "name": "react-cards",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kenzie-academy.gitlab.io/assessment---react-cards",
+  "homepage": "https://kenzie-academy.gitlab.io/se/fe/react/assessment---react-cards",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
