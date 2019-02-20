@@ -8,7 +8,7 @@ In this assessment, you will become more proficient at:
   to different components
 
 ## Getting Started
-Fork and clone this repository: [https://gitlab.com/kenzie-academy/se/fe/react/assessment---react-cards]()
+Fork and clone this repository: [https://gitlab.com/kenzie-academy/se/fe/react/assessment---react-cards](https://gitlab.com/kenzie-academy/se/fe/react/assessment---react-cards)
 
 The two key files in this project are:
 
