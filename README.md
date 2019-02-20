@@ -8,17 +8,7 @@ In this assessment, you will become more proficient at:
   to different components
 
 ## Getting Started
-To get started, _fork_ this repository into your own GitHub account then clone
-this repository to your local machine:
-
-```console
-foo@bar:~ $ git clone git@github.com:github-username/react-cards
-foo@bar:~ $ cd react-cards
-foo@bar:~/react-cards $
-```
-
-Note `github-username` above. In other words, __don't__ simply copy-paste the
-code above blindly into a terminal. 
+Fork and clone this repository: [https://gitlab.com/kenzie-academy/se/fe/react/assessment---react-cards]()
 
 The two key files in this project are:
 
@@ -38,7 +28,7 @@ _Note: Please see the rubric on Canvas for detailed breakdown on how this
 assessment is being graded. The information below is provided for your
 convenience._
 
-### Step 1: Use the `CardGroup` component inside of the `App` component (2 points)
+### Step 1: Use the `CardGroup` component inside of the `App` component
 We've already written a `CardGroup` component for you. You might however, have
 noticed that we _aren't_ using it anywhere. That is your first task. Take a look
 at the implementation for `CardGroup` and create an instance of it inside of
@@ -46,7 +36,7 @@ at the implementation for `CardGroup` and create an instance of it inside of
 
 Hint: Take a look at class names.
 
-### Step 2: Implement a `Card` component (6 points)
+### Step 2: Implement a `Card` component
 
 We've stubbed out a dummy implementation for the `Card` component. Replace the
 `div` with a proper implementation. That implementation should take the
@@ -101,7 +91,7 @@ The line with `&&` in it basically reads as: "If there's a message, render a
 paragraph with that message". You can use the same trick in this assessment to conditionally render
 a `<br>` tag and a hint after it only if  a hint is provided for a particular Card.
 
-## Step 3: Use the `Card` component inside of the `App` component (2 point)
+## Step 3: Use the `Card` component inside of the `App` component
 
 You should now be able to replace all of the cards inside the `CardGroup`
 component that you used in step 1 inside of App. When it's all said and done,
@@ -189,7 +179,7 @@ Pay attention to the terminal after running `npm start`. It'll display errors
 and warnings with your code, which is a convenient way to get feedback without
 having to switch to a browser first.
 
-## Bonus (0 points)
+## Bonus
 
 If you find yourself with extra time (e.g., don't have other assessments to
 catch up on), you may consider improving the quality in a number of ways:
@@ -208,5 +198,5 @@ catch up on), you may consider improving the quality in a number of ways:
 
 ## Submission
 
-Once you finish the assessment, you then must submit a link to your GitHub Pages deployment. If you instead
-submit a link to a GitHub repository (that is, only code), you will not receive any points. 
+Once you finish the assessment, you then must submit a link to your deployment. If you instead
+submit a link to a repository (that is, only code), you will not receive any points. 
