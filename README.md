@@ -21,7 +21,7 @@ The two key files in this project are:
 Next, install project dependencies. You should now be able to run `npm start` from a 
 terminal and a page should automatically open in your browser:
 
-![cards screenshot](screenshots/result.png)
+<img src="https://s3.us-east-2.amazonaws.com/files.kenzie.academy/frontend-q2/react-cards.png" alt="cards screenshot" height="500px" />
 
 ## Acceptance Criteria
 _Note: Please see the rubric on Canvas for detailed breakdown on how this
