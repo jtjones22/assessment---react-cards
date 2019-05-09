@@ -131,7 +131,7 @@ a component that looks like this:
 class Text extends React.Component {
     render() {
         return (
-            <h1>Hello, <span style={{ color: this.props.color }}{this.props.value}</span></h1>
+            <h1>Hello, <span style={{ color: this.props.color }}>{this.props.value}</span></h1>
         );
     }
 }
@@ -141,7 +141,7 @@ Can be rewritten as:
 
 ```jsx
 const SomeComponent = props => (
-    <h1>Hello, <span style={{ color: props.color }}{props.value}</span></h1>
+    <h1>Hello, <span style={{ color: props.color }}>{props.value}</span></h1>
 );
 ```
 
@@ -150,7 +150,7 @@ we can reduce that further, still:
 
 ```jsx
 const SomeComponent = { props, color } => (
-    <h1>Hello, <span style={{ color }}{ value }</span></h1>
+    <h1>Hello, <span style={{ color }}>{ value }</span></h1>
 );
 ```
 
