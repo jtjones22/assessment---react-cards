@@ -158,7 +158,7 @@ By utilizing [ES6 destructuring assignment](http://es6-features.org/#ObjectMatch
 we can reduce that further, still:
 
 ```js
-const SomeComponent = ({ props, color }) => (
+const SomeComponent = ({ color, value }) => (
   <h1>
     Hello, <span style={{ color }}>{value}</span>
   </h1>
