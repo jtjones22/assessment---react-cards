@@ -210,5 +210,5 @@ catch up on), you may consider improving the quality in a number of ways:
 
 ## Submission
 
-Once you finish the assessment, you then must submit a link to your deployment. If you instead
-submit a link to a repository (that is, only code), you will not receive any points.
+Once you finish the assessment, you then must submit 2 links: one for your deployment and one for your repository. If you instead
+submit only a link to a repository (that is, only code), you will not receive any points.
