@@ -1,6 +1,9 @@
 import React from 'react';
 import CardGroup from './CardGroup'
 import Card from './Card'
+import './Card.css'
+import './CardGroup.css'
+
 
 
 /*
