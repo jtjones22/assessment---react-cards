@@ -1,4 +1,7 @@
 import React from 'react';
+import CardGroup from './CardGroup'
+import Card from './Card'
+
 
 /*
  * CardGroup
@@ -12,24 +15,6 @@ import React from 'react';
  * The above would render a card group with a single child in it.
  *
  */
-const CardGroup = (props) => (
-    <div className="cardGroup">
-        {props.children}
-    </div>
-);
-
-const Card = (props) => (
-    <div className="card cardGroup__card">
-        <div className="card__description cardGroup__cardDescription">
-            <div className={`icon fa ${props.icon} card__descriptionIcon`} />
-            <div className="card__descriptionText">
-                {props.description}
-                {props.hint && <span><br/>{props.hint}</span>}
-            </div>
-        </div>
-        <div className="card__price">{props.price}!</div>
-    </div>
-);
 
 const App = () => (
     <CardGroup>
@@ -37,6 +22,7 @@ const App = () => (
         <Card description="Basic tier" hint="(most popular)" icon="fa-trophy" price="$10.00" />
         <Card description="Advanced tier" hint="(only for enterprise-level professionals)" icon="fa-bolt" price="$6,000" />
     </CardGroup>
+    )
     // <div className="cardGroup">
     //     <div className="card cardGroup__card">
     //         <div className="card__description cardGroup__cardDescription">
@@ -70,6 +56,6 @@ const App = () => (
     //         <div className="card__price">$6,000.00</div>
     //     </div>
     // </div>
-);
+// );
 
 export default App;
